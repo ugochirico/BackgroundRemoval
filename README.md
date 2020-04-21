@@ -3,9 +3,13 @@ BackgroundRemoval is an application that allows taking pictures then holding ont
 
 ## Library
 The application has a library package. There are 4 main components:
+
 -VisionPredictor: used to manage and execute the model
+
 -VisionImage: process captured images to prepare for the prediction of model
+
 -OnDeviceModel: contains information and load model file for prediction
+
 -VisionResult: Access to the results of the prediction
 
 Class VisionPredictor handles all the complex processing associated with running a model on a device, including pre-processing - these are necessary operations to prepare images to format the input for the model. ) and post-processing (post-processing output from the model to get the desired result)
