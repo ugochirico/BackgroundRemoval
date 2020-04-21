@@ -27,7 +27,7 @@ import java.net.URLConnection;
 public class SplashScreen extends AppCompatActivity {
 
     private final String fileName="viettelbackgroundremoval.tflite";
-    private final String url="https://github.com/tupm97/BackgroundRemoval/releases/download/viettelbackgroundremoval/viettelbackgroundremoval.tflite";
+    private final String url="https://github.com/tupm97/BackgroundRemoval/releases/download/model/viettelbackgroundremoval.tflite";
     private ProgressDialog mProgressDialog;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
